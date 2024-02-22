@@ -1,0 +1,91 @@
+html, body {
+  margin: 1px;
+  background-color: rgb(10, 226, 125);
+  min-width: 300px;
+  min-height: 182px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.save-input-btn, .save-tab-btn {
+  flex: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px green;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-family: 'Courier New', Courier, monospace;
+}
+.save-tab-btn:hover {
+  background-color: greenyellow;
+  color: white;
+}
+.save-tab-btn:active {
+  background-color: rgb(89, 165, 1);
+}
+.save-input-btn {
+  background-color: greenyellow;
+  color: white;
+  transition: all 0.3s;
+}
+.save-input-btn:hover {
+  background-color: rgb(89, 165, 1);
+  color: white;
+}
+.save-input-btn:active {
+  opacity: 0.8;
+}
+.clear-btn-el {
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: solid 1px green;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-family: 'Courier New', Courier, monospace;
+}
+.clear-btn-el:hover {
+  opacity: 0.8;
+}
+.clear-btn-el:active {
+  opacity: 0.5;
+}
+
+.container input {
+  height: 45px;
+  padding: 10px;
+  outline: 0;
+  border-radius: 10px;
+  border: solid 1px green;
+  color: green;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.link-container {
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
+  height: 180px;
+  overflow-y: scroll;
+}
+.link-container::-webkit-scrollbar {
+  width: 12px;
+}
+ul li {
+  font-size: 15px;
+  font-family: Arial;
+}
